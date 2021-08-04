@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background-image: url(/assets/img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pw-container {
+  background-color: rgb(58, 172, 248);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 320px;
+  border-radius: 8px;
+}
+
+
+.switch{
+cursor: pointer;  
+}
+
+#len{
+outline: none;
+padding: 5px;
+border-radius: 10px;
+border: none;
+text-align: center;
+
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+.pw {
+  background-color: rgb(254, 254, 255);
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  color: black;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.pw button {
+  background-color: rgb(255, 254, 254);
+  border: none;
+  color: rgb(14, 129, 206);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, 20%);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.pw-body {
+  padding: 0 1rem 1rem;
+}
+
+.form-control {
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+
+.generate {
+  background-color: #f3fdf9;
+  border: none;
+  color: rgb(58, 172, 248);
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 100%;
+  transition: .4s;
+  border-radius: 10px;
+}
